@@ -1,0 +1,44 @@
+/* Általános stílusok az egész oldalhoz */
+body {
+    font-family: 'Georgia', serif; /* Elegáns betűtípus */
+    background-color: #f5f5dc; /* Drapp szín */
+    color: #333; /* Sötétszürke szöveg */
+    margin: 20px;
+    line-height: 1.8;
+}
+
+/* Fejléc stílusok */
+header {
+    background-color: #deb887; /* Világos barnás szín */
+    color: #fff; /* Fehér szöveg */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Navigációs menü stílusok */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b4f60; /* Kékesszürke szín */
+    margin-right: 15px;
+    font-family: 'Arial', sans-serif; /* Egyszerű betűtípus */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff4500; /* Narancssárga szín hover alatt */
+    text-decoration: underline;
+}
+
+/* Fő tartalom stílusok */
+main {
+    background: #fff; /* Fehér doboz */
+    padding: 20px;
+    border: 1px solid #ccc; /* Szürke keret */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
